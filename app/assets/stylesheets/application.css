@@ -13,3 +13,13 @@
  *= require_tree .
  *= require_self
  */
+html {
+  font-family: "American Type Writer";
+  font-size: 25px; 
+  background-color: #69d8ae 
+}
+
+#clock {
+    font-family: "American Type Writer";
+    font-size: 4em;
+  }
