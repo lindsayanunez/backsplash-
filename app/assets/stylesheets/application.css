@@ -14,12 +14,33 @@
  *= require_self
  */
 html {
-  font-family: "American Type Writer";
-  font-size: 25px; 
-  background-color: #69d8ae 
+  font-family: Century;
+  font-size: 40px; 
+  background-color: #69d8ae;
+  color: white;
 }
 
+body {
+  padding: 0;
+  margin: 0
+
+}
+
+div#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0,0,0,0.5);
+  text-align: center;
+  height: 2em;
+  padding-top: 1em;
+  color: white;
+  font-size: 12
+
+
+
+
 #clock {
-    font-family: "American Type Writer";
-    font-size: 4em;
+    font-family: Arial;
+    font-size: 2em;
   }
