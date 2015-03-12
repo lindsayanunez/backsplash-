@@ -9,7 +9,7 @@ class HomeController < ApplicationController
     when 16..19 
       ["Good Evening, Lindsay", "Aye Bay Bay", "Have a lovely evening"].sample 
     when 20..23, 0..4 
-      "Good Night, Lindsay!"
+      "Good Night, Lindsay! <i class='fa fa-moon-o'></i>".html_safe
     end 
 
   end
